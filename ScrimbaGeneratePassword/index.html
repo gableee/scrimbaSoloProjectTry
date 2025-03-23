@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="Password-Container">
+            <div class="Text-Container">
+                <h1>Generate a</h1>
+                <h1 class="accent">random password</h1>
+                <p class="grayish">Never use an insecure password again.</p>
+            </div>
+        
+            <button onclick="generatePass()">Generate Password</button>
+            <div class="checkboxes">
+                <input type="checkbox" id="alphabetBox">Alphabets</input>
+                <input type="checkbox" id="numberBox">Numbers</input>
+                <input type="checkbox" id="symbolBox">Symbol</input>
+            </div>
+            <div class="breakline"></div>
+            
+            <div class="pass-container">
+                <p id="firstPassword"> </p>
+                <p id="secondPassword"> </p>
+            </div>
+            
+            <div class="Copy-Pass">
+                <button class="Copy" onclick="copy1()">Copy 1</button>
+                <button class="Copy" onclick="copy2()">Copy 2</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

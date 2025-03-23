@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 2em;
+}
+
+.Password-Container {
+    padding: 2em;
+    width: 450px;
+    height: 400px;
+    background-color: #171926;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px 0px #08d471;
+}
+.accent{
+    color: #08d471;
+    margin-top: -15px;
+}
+.grayish {
+    color: gray
+}
+
+button{
+    margin-top: 2em;
+    padding: .5em 1em;
+    background-color: #08d471;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+.breakline{
+    width: 450px;
+    margin-top: 2em;
+    border-bottom: 2px solid #333B44;
+    border-radius: 5px;
+}
+
+.pass-container {
+    display: flex;
+    gap: 1.5em;
+}
+
+#firstPassword, #secondPassword{
+    width: 200px;
+    height: 15px;
+    padding: .5em;
+    margin-top: 1.75em;
+    background-color: #39424C;
+    color: #08d471;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.checkboxes{
+    display: flex;
+    margin-top: 1em;
+    gap: 20px;
+    color: #08d471;
+}
+.Copy-Pass{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1.75em;
+}
+.Copy {
+    font-size: 13px;
+    font-weight: bold;
+}
