@@ -1,0 +1,95 @@
+/* CSS Colors */
+:root {
+    --primary-bg: #6943FF;
+    --secondary-bg: #1F2937;
+    --tertiary-bg: #273549;
+    --border-color: #B295FF;
+    --text-color: white;
+    --highlight-color: #CCC1FF;
+}
+
+html {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;  /* Centers vertically */
+    justify-content: center;  /* Centers horizontally */
+    background-color: black;
+    box-sizing: border-box;
+}
+body {
+    flex-direction: column;
+    width: 520px;
+    height: 700px;
+    text-align: center;
+}
+
+.Conversion-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 500px;
+    height: 245px;
+    padding: 10px;
+    background-color: var(--primary-bg);
+    color: var(--text-color);   
+}
+.title {
+    font-size: 28px;
+    padding: 0 12px;
+}
+#input-number{
+    display: flex;
+    width: 90px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    padding-left: 10px;
+    padding: 10px 0px 10px 13px;
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+}
+
+#convert-btn {
+    margin-top: 20px;
+    padding: 10px 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.Result-container {
+    background-color: var(--secondary-bg);
+    height: 400px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.result-section{
+    background-color: var(--tertiary-bg);
+    color: var(--text-color);
+    margin-bottom: 28px;
+    padding: 2px 2px 10px 2px;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    overflow: hidden;
+}
+
+h3{
+    color: var(--highlight-color);
+}
+
+.result p {
+    font-size: clamp(14px, 2vw, 18px); 
+    margin: 0;
+}
