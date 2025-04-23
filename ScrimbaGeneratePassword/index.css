@@ -58,7 +58,7 @@ button:hover{
     color: #08d471;
     border: none;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: .8rem;
 }
 
 .checkboxes{
@@ -73,6 +73,6 @@ button:hover{
     margin-top: -1.75em;
 }
 .Copy {
-    font-size: 13px;
+    font-size: .8rem;
     font-weight: bold;
 }
