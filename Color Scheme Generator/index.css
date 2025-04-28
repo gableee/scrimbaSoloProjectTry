@@ -1,0 +1,59 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: .5em;
+    background-color: #2b2b3a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.color-scheme-container {
+    margin: auto;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+}
+
+.picker {
+    display: flex;
+    padding: 1em .8em 1em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Generated-Color-Container {
+    display: flex;
+    width: 100px;
+}
+
+.color {
+    width: 100px;
+    height: 400px;
+}
+
+.hex-code {
+    text-align: center;
+}
+
+#seed-color {
+    border: 1px solid lightgray;
+    width: 4em;
+    height: 2em;
+}
+
+#color-mode {
+    border: 1px solid lightgray;
+    width: 15em;
+    height: 2em;
+    border-radius: 4px;
+}
+
+button {
+    border: 1px solid lightgray;
+    width: 10em;
+    height: 2em;
+    border-radius: 5px;
+    background-color: white;
+}
