@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_text">
+            <h1 class="film">Find your film</h1>
+            <a href="./index.html" class="list">Search for movies</a>
+        </div>
+
+        <div class="search_bar">
+            <i class="fa-solid fa-magnifying-glass" style="color: #bfbbbb;"></i>
+            <input type="text" class="search_input" placeholder="Search for a movie...">
+            <button class="search_button sbc2">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="watchlist_container" class="movie_list">
+            <!-- Watchlist movies will be dynamically added here -->
+        </div>
+    </main>
+
+
+    <script src="watchlist.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

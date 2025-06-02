@@ -1,0 +1,16 @@
+/* Tablet */
+@media (min-width: 481px) {
+    /* Adjust layout for larger screens, like adding a second column */
+  }
+  
+  /* Laptop/PC */
+  @media (min-width: 769px) {
+    /* Wider margins, desktop font sizes, maybe a grid layout */
+  }
+  
+  /* Large desktops */
+  @media (min-width: 1281px) {
+    /* Very wide screens — optional, for large desktops */
+  }
+  
+
