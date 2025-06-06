@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.bold{
+    font-weight: 700;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    border-bottom: 1px solid gray;
+}
+.logo {
+    width: 250px;
+}
+.owner-profile {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    background-color: white;
+}
+
+.post-section{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.user-account {
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    gap: 10px;
+}
+
+#user-profile-avatar {
+    width: 55px;
+    border-radius: 50%;
+}
+.user-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-name {
+    letter-spacing: 1px;
+}
+.user-address{
+    font-size: 1rem;
+}
+.content {
+    width: 100%;
+}
+.icons{
+ display: block;
+   margin-top: -5px;
+   padding: 1px;
+}
+
+.icons ul{
+    display: flex;
+    padding: 0 10px;
+    gap: 20px;
+}
+.fa-regular, .fa-solid {
+    font-size: 2.25rem;
+}
+.fa-paper-plane{
+    display: block;
+    margin-left: -15px;
+}
+
+.likes-section{
+    padding: 0 10px;
+}
+.likes-section p {
+    margin-bottom: 15px;
+}
+
+.divider {
+    display: block ;
+    background-color: #ccc;/* Light gray color */
+    height: 20px;
+    margin: 10px 0; /* Add spacing above and below */
+    width: 100%; /* Full width */
+}
